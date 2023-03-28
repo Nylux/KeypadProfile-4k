@@ -1,0 +1,140 @@
+<mxfile host="65bd71144e">
+    <diagram id="86oPkACcVixuf0PwEQQ8" name="Page-1">
+        <mxGraphModel dx="1156" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="120" width="280" height="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-2" value="&lt;font color=&quot;#404040&quot;&gt;Check for every process in processes.ini every 20 seconds&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="150" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-3" value="&lt;font color=&quot;#404040&quot;&gt;osu.exe:wxcf&lt;br&gt;FNF.exe:dfjk&lt;br&gt;jsp.exe:arrows&lt;br&gt;aled.exe:arrows&lt;br&gt;oskour.exe:dfjk&lt;br&gt;cejeula.exe:wxcf&lt;br&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="80" width="130" height="193" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-4" value="" style="endArrow=classic;html=1;strokeColor=#CC0000;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="hEly2OYkRNHaiIvr3fE8-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="200" as="sourcePoint"/>
+                        <mxPoint x="480" y="196" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-5" value="Every 20s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="390" y="170" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-6" value="Main.py" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontColor=#404040;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="120" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-7" value="processes.ini" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=5;fontColor=#404040;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="80" width="45" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-8" value="&lt;font color=&quot;#404040&quot;&gt;Is any &lt;br&gt;process running ?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="230" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-9" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-8" target="hEly2OYkRNHaiIvr3fE8-10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="470" as="sourcePoint"/>
+                        <mxPoint x="230" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-10" value="&lt;font color=&quot;#404040&quot;&gt;Check found process's mode in processes.ini&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="330" width="90" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-11" value="&lt;font color=&quot;#404040&quot;&gt;&lt;br&gt;Return to &lt;br&gt;Check&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="330" width="90" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-12" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-8" target="hEly2OYkRNHaiIvr3fE8-11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="380" as="sourcePoint"/>
+                        <mxPoint x="480" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-13" value="&lt;font color=&quot;#404040&quot;&gt;TRUE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="145" y="330" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-14" value="&lt;font color=&quot;#404040&quot;&gt;FALSE&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="275" y="330" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.869;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-14" target="hEly2OYkRNHaiIvr3fE8-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="380" as="sourcePoint"/>
+                        <mxPoint x="480" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-16" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" target="hEly2OYkRNHaiIvr3fE8-8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="210" as="sourcePoint"/>
+                        <mxPoint x="480" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#CC0000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="210" y="412" as="sourcePoint"/>
+                        <mxPoint x="510" y="412" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-18" value="" style="endArrow=classic;html=1;strokeColor=#CC0000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="510" y="408.5" as="sourcePoint"/>
+                        <mxPoint x="510" y="271.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-19" value="&lt;font color=&quot;#404040&quot;&gt;Set active mode to the one found in processes.ini&lt;br&gt;Set active process to detected process&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="433" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-20" value="&lt;font color=&quot;#404040&quot;&gt;Display found game and selected profile&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="516" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-21" value="&lt;font color=&quot;#404040&quot;&gt;Display menu to change mode, go back to process check or exit completely&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="590.5" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-22" value="&lt;font color=&quot;#404040&quot;&gt;Write newly selected mode to processes.ini and go back to menu&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="666" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-24" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.132;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-10" target="hEly2OYkRNHaiIvr3fE8-19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="20" y="490" as="sourcePoint"/>
+                        <mxPoint x="70" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-19" target="hEly2OYkRNHaiIvr3fE8-20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="480" y="570" as="sourcePoint"/>
+                        <mxPoint x="530" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-20" target="hEly2OYkRNHaiIvr3fE8-21" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="640" as="sourcePoint"/>
+                        <mxPoint x="510" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#404040;" parent="1" source="hEly2OYkRNHaiIvr3fE8-21" target="hEly2OYkRNHaiIvr3fE8-22" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="430" y="700" as="sourcePoint"/>
+                        <mxPoint x="480" y="650" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-32" value="" style="endArrow=classic;html=1;strokeColor=#404040;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="696.75" as="sourcePoint"/>
+                        <mxPoint x="330" y="540" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="696.25"/>
+                            <mxPoint x="350" y="540"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="hEly2OYkRNHaiIvr3fE8-33" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CC0000;" parent="1" source="hEly2OYkRNHaiIvr3fE8-22" target="hEly2OYkRNHaiIvr3fE8-3" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="450" as="sourcePoint"/>
+                        <mxPoint x="560" y="711" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="550" y="711"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
