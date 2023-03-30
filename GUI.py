@@ -1,27 +1,34 @@
 import PySimpleGUI as sg
 import threading
 import winsound
+#import psgtray
 from psgtray import SystemTray
 
 import keypadProfile
 import layouts.mainMenu as mainMenuLayout
 
-#   TODO : Capitalize or lowercase all processes' modes, everywhere.
-#   TODO : Implement AUTO mode, probable use of threading to not freeze the app ?
+# TODO LIST :
+#   --------------------------------------------------------------------------------------------------------------------
+#   - Implement AUTO mode, probable use of threading to not freeze the app ?
 #       - Refresh processes list every 5 seconds, but don't refresh the table.
-#   TODO : Sanitizing User Input in both backend and frontend.
-#   TODO : Display all COM ports in a dropdown menu.
-#   TODO : Refactoring all strings with the f-strings syntax for consistency.
-#   TODO : Refactoring bits of code into functions for easier maintaining and re-usability, especially in event handlers
-#   TODO : Refactoring (getting rid of the manual editing of processes.ini in favour of the 'INPUT_CUSTOM' way ?)
-#       - New Button to add a process and its mode without editing processes.ini ?
-#       - Delete Button to remove a process and its mode without editing processes.ini ?
-#   TODO : FIX : Fix the empty space after clicking on the custom tab and then away from it. (would be a non issue with
+#   - Capitalize or lowercase all processes' modes, everywhere.
+#   - Sanitizing User Input in both backend and frontend.
+#   - Display all COM ports in a dropdown menu.
+#   - Refactoring all strings with the f-strings syntax for consistency.
+#   - Refactoring bits of code into functions for easier maintaining and re-usability, especially in event handlers
+#   - Refactoring (getting rid of the manual editing of processes.ini in favour of the 'INPUT_CUSTOM' way ?)
+#   ----- New Button to add a process and its mode without editing processes.ini ?
+#   ----- Delete Button to remove a process and its mode without editing processes.ini ?
+#   - Using cprint in the multiline output box to outline processes name and modes as well as COM port.
+#   - FIX : Fix the empty space after clicking on the custom tab and then away from it. (would be a non issue with
 #           the above refactoring)
-#   TODO : FIX : Find a way to speed up the binding of keys.
-#   TODO : B4-RELEASE : Remove the print statements and replace them with logging or remove them altogether.
-#   TODO : B4-RELEASE : Modify functions that need threading in the backend rather than in the frontend.
+#   - FIX : Find a way to speed up the binding of keys.
+#   - B4-RELEASE : Remove the print statements and replace them with logging or remove them altogether.
+#   - B4-RELEASE : Modify functions that need threading in the backend rather than in the frontend.
+#   - B4-RELEASE : Find a way to add 'ARROW' mode to processes.
+#   - B4-RELEASE : Add a 'About' window with the version number and a link to the GitHub repo.
 #    (cf. bind_thread)
+#   --------------------------------------------------------------------------------------------------------------------
 
 
 def bind_thread(com_port, selected_mode):
