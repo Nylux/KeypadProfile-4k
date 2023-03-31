@@ -19,7 +19,3 @@ Requires the following :
 - Cd into the folder : `cd KeypadProfile-4k`
 - Install requirements : `make setup`
 - Build the executable : `make release`
-
-### Alternative Setup
-If for some reason you do not wish to or can not install make, you can simply open the Makefile in your 
-text editor of choice and run the commands listed there in your terminal manually.
