@@ -18,7 +18,7 @@ DIST_DIR := dist/
 $(NAME):run
 
 setup:
-	echo 'euh flemme mdrrr kekw'
+	pip install -r $(REQUIREMENTS)
 
 run:
 	python $(MAIN_SCRIPT)
@@ -31,7 +31,7 @@ spec:
 		pyi-makespec --log-level ERROR -i $(ICON) --windowed --onefile $(SRCS) --name $(NAME); \
 	fi
 
-gui: spec
+release: spec
 	echo 'Building executable...'
 	pyinstaller --log-level ERROR --clean $(SPEC)
 	cp $(INI) $(DIST_DIR)$(INI)
